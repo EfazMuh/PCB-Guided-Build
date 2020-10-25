@@ -161,119 +161,6 @@
 </layers>
 <schematic xreflabel="%F%N/%S.%C%R" xrefpart="/%S.%C%R">
 <libraries>
-<library name="SparkFun-Aesthetics">
-<description>&lt;h3&gt;SparkFun Aesthetics&lt;/h3&gt;
-This library contiains non-functional items such as logos, build/ordering notes, frame blocks, etc. 
-&lt;br&gt;
-&lt;br&gt;
-We've spent an enormous amount of time creating and checking these footprints and parts, but it is &lt;b&gt; the end user's responsibility&lt;/b&gt; to ensure correctness and suitablity for a given componet or application. 
-&lt;br&gt;
-&lt;br&gt;If you enjoy using this library, please buy one of our products at &lt;a href=" www.sparkfun.com"&gt;SparkFun.com&lt;/a&gt;.
-&lt;br&gt;
-&lt;br&gt;
-&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
-&lt;br&gt;
-&lt;br&gt;
-You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
-<packages>
-<package name="CREATIVE_COMMONS">
-<description>&lt;h3&gt;Creative Commons License Template&lt;/h3&gt;
-&lt;p&gt;CC BY-SA 4.0 License with &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;link to license&lt;/a&gt; and placeholder for designer name.&lt;/p&gt;
-&lt;p&gt;Devices using:
-&lt;ul&gt;&lt;li&gt;FRAME_LEDGER&lt;/li&gt;
-&lt;li&gt;FRAME_LETTER&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;</description>
-<text x="-20.32" y="5.08" size="1.778" layer="51" font="vector">Released under the Creative Commons Attribution Share-Alike 4.0 License</text>
-<text x="0" y="2.54" size="1.778" layer="51" font="vector"> https://creativecommons.org/licenses/by-sa/4.0/</text>
-<text x="11.43" y="0" size="1.778" layer="51" font="vector">Designed by:</text>
-</package>
-<package name="DUMMY">
-<description>&lt;h3&gt;Dummy Footprint&lt;/h3&gt;
-&lt;p&gt;NOTHING HERE!!! For when you want a symbol with no package as an option against symbols with a package.&lt;/p&gt;
-
-&lt;p&gt;Devices using:
-&lt;ul&gt;&lt;li&gt;BADGERHACK_LOGO&lt;/li&gt;
-&lt;li&gt;FRAME-LETTER&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;</description>
-</package>
-</packages>
-<symbols>
-<symbol name="FRAME-LETTER">
-<description>&lt;h3&gt;Schematic Frame - Letter&lt;/h3&gt;
-&lt;p&gt;Standard 8.5x11 US Ledger frame&lt;/p&gt;
-&lt;p&gt;Devices using&lt;ul&gt;&lt;li&gt;FRAME-LETTER&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;</description>
-<wire x1="0" y1="185.42" x2="248.92" y2="185.42" width="0.4064" layer="94"/>
-<wire x1="248.92" y1="185.42" x2="248.92" y2="0" width="0.4064" layer="94"/>
-<wire x1="0" y1="185.42" x2="0" y2="0" width="0.4064" layer="94"/>
-<wire x1="0" y1="0" x2="248.92" y2="0" width="0.4064" layer="94"/>
-</symbol>
-<symbol name="DOCFIELD">
-<description>&lt;h3&gt;Schematic Documentation Field&lt;/h3&gt;
-&lt;p&gt;Autofilling schematic symbol-layer info including board name, designer, revision, and save date.&lt;/p&gt;
-&lt;p&gt;Devices using:
-&lt;ul&gt;&lt;li&gt;FRAME-LEDGER&lt;/li&gt;
-&lt;li&gt;FRAME-LETTER&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;</description>
-<wire x1="0" y1="0" x2="71.12" y2="0" width="0.254" layer="94"/>
-<wire x1="101.6" y1="15.24" x2="87.63" y2="15.24" width="0.254" layer="94"/>
-<wire x1="0" y1="0" x2="0" y2="5.08" width="0.254" layer="94"/>
-<wire x1="0" y1="5.08" x2="71.12" y2="5.08" width="0.254" layer="94"/>
-<wire x1="0" y1="5.08" x2="0" y2="15.24" width="0.254" layer="94"/>
-<wire x1="101.6" y1="15.24" x2="101.6" y2="5.08" width="0.254" layer="94"/>
-<wire x1="71.12" y1="5.08" x2="71.12" y2="0" width="0.254" layer="94"/>
-<wire x1="71.12" y1="5.08" x2="87.63" y2="5.08" width="0.254" layer="94"/>
-<wire x1="71.12" y1="0" x2="101.6" y2="0" width="0.254" layer="94"/>
-<wire x1="87.63" y1="15.24" x2="87.63" y2="5.08" width="0.254" layer="94"/>
-<wire x1="87.63" y1="15.24" x2="0" y2="15.24" width="0.254" layer="94"/>
-<wire x1="87.63" y1="5.08" x2="101.6" y2="5.08" width="0.254" layer="94"/>
-<wire x1="101.6" y1="5.08" x2="101.6" y2="0" width="0.254" layer="94"/>
-<wire x1="0" y1="15.24" x2="0" y2="22.86" width="0.254" layer="94"/>
-<wire x1="101.6" y1="35.56" x2="0" y2="35.56" width="0.254" layer="94"/>
-<wire x1="101.6" y1="35.56" x2="101.6" y2="22.86" width="0.254" layer="94"/>
-<wire x1="0" y1="22.86" x2="101.6" y2="22.86" width="0.254" layer="94"/>
-<wire x1="0" y1="22.86" x2="0" y2="35.56" width="0.254" layer="94"/>
-<wire x1="101.6" y1="22.86" x2="101.6" y2="15.24" width="0.254" layer="94"/>
-<text x="1.27" y="1.27" size="2.54" layer="94" font="vector">Date:</text>
-<text x="12.7" y="1.27" size="2.54" layer="94" font="vector">&gt;LAST_DATE_TIME</text>
-<text x="72.39" y="1.27" size="2.54" layer="94" font="vector">Sheet:</text>
-<text x="86.36" y="1.27" size="2.54" layer="94" font="vector">&gt;SHEET</text>
-<text x="88.9" y="11.43" size="2.54" layer="94" font="vector">REV:</text>
-<text x="1.524" y="17.78" size="2.54" layer="94" font="vector">TITLE:</text>
-<text x="15.494" y="17.78" size="2.7432" layer="94" font="vector">&gt;DRAWING_NAME</text>
-<text x="2.54" y="31.75" size="1.9304" layer="94">Released under the Creative Commons</text>
-<text x="2.54" y="27.94" size="1.9304" layer="94">Attribution Share-Alike 4.0 License</text>
-<text x="2.54" y="24.13" size="1.9304" layer="94"> https://creativecommons.org/licenses/by-sa/4.0/</text>
-<text x="1.27" y="11.43" size="2.54" layer="94">Design by:</text>
-<text x="23.114" y="11.176" size="2.7432" layer="94" font="vector">&gt;DESIGNER</text>
-<text x="88.9" y="6.604" size="2.7432" layer="94" font="vector">&gt;REV</text>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="FRAME-LETTER" prefix="FRAME">
-<description>&lt;h3&gt;Schematic Frame - Letter&lt;/h3&gt;
-&lt;p&gt;Standard 8.5x11 US Letter frame&lt;/p&gt;</description>
-<gates>
-<gate name="G$1" symbol="FRAME-LETTER" x="0" y="0"/>
-<gate name="V" symbol="DOCFIELD" x="147.32" y="0" addlevel="must"/>
-</gates>
-<devices>
-<device name="" package="CREATIVE_COMMONS">
-<technologies>
-<technology name="">
-<attribute name="DESIGNER" value="" constant="no"/>
-<attribute name="REV" value="" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="NO_PACKAGE" package="DUMMY">
-<technologies>
-<technology name="">
-<attribute name="DESIGNER" value="Nobody" constant="no"/>
-<attribute name="VERSION" value="v01" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="adafruit">
 <packages>
 <package name="1206">
@@ -1709,68 +1596,62 @@ Source: http://www.osram.convergy.de/</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="BS-7 snap">
+<library name="BS-7">
 <packages>
-<package name="BAT_BS-7">
-<wire x1="-13.96" y1="-12" x2="-13.96" y2="12" width="0.05" layer="39"/>
-<wire x1="-13.96" y1="12" x2="11.375" y2="12" width="0.05" layer="39"/>
-<wire x1="11.375" y1="12" x2="11.375" y2="-12" width="0.05" layer="39"/>
-<wire x1="11.375" y1="-12" x2="-13.96" y2="-12" width="0.05" layer="39"/>
-<text x="-14" y="13" size="1.778" layer="25">&gt;NAME</text>
-<text x="-14" y="-14" size="1.778" layer="27">&gt;VALUE</text>
-<wire x1="10.69" y1="3.75" x2="10.69" y2="-3.75" width="0.127" layer="51"/>
-<wire x1="10.69" y1="-3.75" x2="7.995" y2="-3.75" width="0.127" layer="51"/>
-<wire x1="10.69" y1="3.75" x2="7.995" y2="3.75" width="0.127" layer="51"/>
-<wire x1="7.995" y1="3.75" x2="7.995" y2="-3.75" width="0.127" layer="51" curve="320.796"/>
-<wire x1="10.69" y1="-3.75" x2="7.995" y2="-3.75" width="0.127" layer="21"/>
-<wire x1="10.69" y1="3.75" x2="7.995" y2="3.75" width="0.127" layer="21"/>
-<wire x1="7.995" y1="3.75" x2="7.995" y2="-3.75" width="0.127" layer="21" curve="320.796"/>
-<wire x1="10.69" y1="3.75" x2="10.69" y2="1.47" width="0.127" layer="21"/>
-<wire x1="10.69" y1="-3.75" x2="10.69" y2="-1.47" width="0.127" layer="21"/>
-<wire x1="-15.5" y1="0" x2="-14.5" y2="0" width="0.127" layer="21"/>
-<wire x1="12" y1="0" x2="13" y2="0" width="0.127" layer="21"/>
-<wire x1="12.5" y1="0.5" x2="12.5" y2="-0.5" width="0.127" layer="21"/>
-<pad name="-" x="-10" y="0" drill="1.17"/>
-<pad name="+" x="10" y="0" drill="1.5"/>
+<package name="BS-7_MPD">
+<pad name="1" x="0" y="0" drill="1.1684" diameter="1.6764"/>
+<pad name="2" x="0" y="-19.9898" drill="1.4986" diameter="2.0066"/>
+<wire x1="-4.1148" y1="-18.288" x2="-4.1148" y2="-21.3106" width="0.1524" layer="21"/>
+<wire x1="-4.1148" y1="-21.3106" x2="-0.2286" y2="-21.3106" width="0.1524" layer="21"/>
+<wire x1="4.1148" y1="-21.3106" x2="4.1148" y2="-18.288" width="0.1524" layer="21"/>
+<wire x1="0.2286" y1="-21.3106" x2="4.1148" y2="-21.3106" width="0.1524" layer="21"/>
+<wire x1="-1.0922" y1="-19.2278" x2="11.557" y2="-7.7216" width="0.1524" layer="21" curve="-264"/>
+<wire x1="11.557" y1="-7.7216" x2="1.0922" y2="-19.2278" width="0.1524" layer="21" curve="-84"/>
+<text x="-1.7272" y="-8.3566" size="1.27" layer="21" ratio="6" rot="SR0">&gt;Value</text>
+<wire x1="-4.0132" y1="-18.161" x2="-4.0132" y2="-21.1836" width="0.1524" layer="51"/>
+<wire x1="-4.0132" y1="-21.1836" x2="4.0132" y2="-21.1836" width="0.1524" layer="51"/>
+<wire x1="4.0132" y1="-21.1836" x2="4.0132" y2="-18.161" width="0.1524" layer="51"/>
+<wire x1="11.43" y1="-7.7216" x2="-11.43" y2="-7.7216" width="0" layer="51" curve="-180"/>
+<wire x1="-11.43" y1="-7.7216" x2="11.43" y2="-7.7216" width="0" layer="51" curve="-180"/>
+<text x="-3.2766" y="-8.3566" size="1.27" layer="25" ratio="6" rot="SR0">&gt;Name</text>
 </package>
 </packages>
 <symbols>
-<symbol name="BS-7">
-<wire x1="-1.27" y1="2.54" x2="-1.27" y2="0" width="0.254" layer="94"/>
-<wire x1="-1.27" y1="0" x2="-1.27" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="1.27" y1="1.27" x2="1.27" y2="0" width="0.254" layer="94"/>
-<wire x1="1.27" y1="0" x2="1.27" y2="-1.27" width="0.254" layer="94"/>
-<wire x1="-1.27" y1="0" x2="-2.54" y2="0" width="0.254" layer="94"/>
-<wire x1="1.27" y1="0" x2="2.54" y2="0" width="0.254" layer="94"/>
-<wire x1="-3.175" y1="2.54" x2="-3.175" y2="1.27" width="0.254" layer="94"/>
-<wire x1="-3.81" y1="1.905" x2="-2.54" y2="1.905" width="0.254" layer="94"/>
-<text x="-3.81" y="3.81" size="1.778" layer="95">&gt;NAME</text>
-<text x="-3.81" y="-5.08" size="1.778" layer="96">&gt;VALUE</text>
-<wire x1="2.54" y1="1.905" x2="3.81" y2="1.905" width="0.254" layer="94"/>
-<pin name="+" x="-7.62" y="0" visible="pad" length="middle" direction="pas"/>
-<pin name="-" x="7.62" y="0" visible="pad" length="middle" direction="pas" rot="R180"/>
+<symbol name="BAT">
+<pin name="1" x="10.16" y="0" visible="off" length="short" direction="pas" rot="R180"/>
+<pin name="2" x="0" y="0" visible="off" length="short" direction="pas"/>
+<wire x1="2.286" y1="0.762" x2="2.286" y2="1.778" width="0.2032" layer="94"/>
+<wire x1="6.604" y1="0" x2="7.62" y2="0" width="0.2032" layer="94"/>
+<wire x1="3.556" y1="-1.778" x2="3.556" y2="1.778" width="0.2032" layer="94"/>
+<wire x1="1.778" y1="1.27" x2="2.794" y2="1.27" width="0.2032" layer="94"/>
+<wire x1="2.54" y1="0" x2="3.4798" y2="0" width="0.2032" layer="94"/>
+<wire x1="5.588" y1="-1.778" x2="5.588" y2="1.778" width="0.2032" layer="94"/>
+<wire x1="6.604" y1="0.762" x2="6.604" y2="-0.762" width="0.2032" layer="94"/>
+<wire x1="4.572" y1="0.762" x2="4.572" y2="-0.762" width="0.2032" layer="94"/>
+<wire x1="7.366" y1="1.27" x2="8.382" y2="1.27" width="0.2032" layer="94"/>
+<text x="-3.0734" y="2.0828" size="3.4798" layer="95" ratio="10" rot="SR0">&gt;Name</text>
+<text x="-4.1402" y="-5.5372" size="3.4798" layer="96" ratio="10" rot="SR0">&gt;Value</text>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="BS-7" prefix="BT">
-<description>BATTERY HOLDER COIN 20MM PC PIN &lt;a href="https://pricing.snapeda.com/parts/BS-7/MPD%20%28Memory/view-part?ref=eda"&gt;Check prices&lt;/a&gt;</description>
+<deviceset name="BS-7" prefix="B">
 <gates>
-<gate name="G$1" symbol="BS-7" x="0" y="0"/>
+<gate name="A" symbol="BAT" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="BAT_BS-7">
+<device name="" package="BS-7_MPD">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="AVAILABILITY" value="Warning"/>
-<attribute name="DESCRIPTION" value=" BATTERY HOLDER COIN 20MM PC PIN "/>
-<attribute name="MF" value="MPD (Memory"/>
-<attribute name="MP" value="BS-7"/>
-<attribute name="PACKAGE" value="None"/>
-<attribute name="PRICE" value="None"/>
+<attribute name="BUILT_BY" value="EMA_Cory" constant="no"/>
+<attribute name="COPYRIGHT" value="Copyright (C) 2018 Accelerated Designs. All rights reserved" constant="no"/>
+<attribute name="DATASHEET" value="http://www.memoryprotectiondevices.com/datasheets/BS-7-datasheet.pdf" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="BS-7" constant="no"/>
+<attribute name="SOURCELIBRARY" value="Memory_Protection_Devices_2020-03-04" constant="no"/>
+<attribute name="VENDOR" value="Memory Protection Devices, Inc" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -1788,7 +1669,6 @@ Source: http://www.osram.convergy.de/</description>
 </class>
 </classes>
 <parts>
-<part name="FRAME1" library="SparkFun-Aesthetics" deviceset="FRAME-LETTER" device=""/>
 <part name="LED1" library="adafruit" deviceset="LED" device="3MM"/>
 <part name="LED2" library="adafruit" deviceset="LED" device="3MM"/>
 <part name="LED3" library="adafruit" deviceset="LED" device="3MM"/>
@@ -1816,21 +1696,13 @@ Source: http://www.osram.convergy.de/</description>
 <part name="R5" library="100Resistor" deviceset="CF14JT100R" device=""/>
 <part name="J1" library="8pinsocket" deviceset="1-2199298-2" device=""/>
 <part name="SW1" library="EG1218" deviceset="EG1218" device=""/>
-<part name="BT1" library="BS-7 snap" deviceset="BS-7" device=""/>
+<part name="B1" library="BS-7" deviceset="BS-7" device=""/>
 </parts>
 <sheets>
 <sheet>
 <plain>
 </plain>
 <instances>
-<instance part="FRAME1" gate="G$1" x="0" y="0" smashed="yes"/>
-<instance part="FRAME1" gate="V" x="147.32" y="0" smashed="yes">
-<attribute name="LAST_DATE_TIME" x="160.02" y="1.27" size="2.54" layer="94" font="vector"/>
-<attribute name="SHEET" x="233.68" y="1.27" size="2.54" layer="94" font="vector"/>
-<attribute name="DRAWING_NAME" x="162.814" y="17.78" size="2.7432" layer="94" font="vector"/>
-<attribute name="DESIGNER" x="170.434" y="11.176" size="2.7432" layer="94" font="vector"/>
-<attribute name="REV" x="236.22" y="6.604" size="2.7432" layer="94" font="vector"/>
-</instance>
 <instance part="LED1" gate="G$1" x="66.04" y="132.08" smashed="yes">
 <attribute name="NAME" x="69.596" y="127.508" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="71.755" y="127.508" size="1.778" layer="96" rot="R90"/>
@@ -1938,9 +1810,9 @@ Source: http://www.osram.convergy.de/</description>
 <instance part="SW1" gate="A" x="144.78" y="99.06" smashed="yes">
 <attribute name="NAME" x="144.5006" y="112.5728" size="3.4798" layer="95" ratio="10" rot="SR0"/>
 </instance>
-<instance part="BT1" gate="G$1" x="175.26" y="99.06" smashed="yes">
-<attribute name="NAME" x="171.45" y="102.87" size="1.778" layer="95"/>
-<attribute name="VALUE" x="171.45" y="93.98" size="1.778" layer="96"/>
+<instance part="B1" gate="A" x="170.18" y="99.06" smashed="yes">
+<attribute name="NAME" x="167.1066" y="101.1428" size="3.4798" layer="95" ratio="10" rot="SR0"/>
+<attribute name="VALUE" x="166.0398" y="93.5228" size="3.4798" layer="96" ratio="10" rot="SR0"/>
 </instance>
 </instances>
 <busses>
@@ -2163,9 +2035,9 @@ Source: http://www.osram.convergy.de/</description>
 <label x="144.78" y="129.54" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="BT1" gate="G$1" pin="-"/>
-<wire x1="182.88" y1="99.06" x2="187.96" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="180.34" y1="99.06" x2="187.96" y2="99.06" width="0.1524" layer="91"/>
 <label x="187.96" y="99.06" size="1.778" layer="95"/>
+<pinref part="B1" gate="A" pin="1"/>
 </segment>
 </net>
 <net name="PB4" class="0">
@@ -2195,8 +2067,8 @@ Source: http://www.osram.convergy.de/</description>
 <net name="N$7" class="0">
 <segment>
 <pinref part="SW1" gate="A" pin="3"/>
-<wire x1="157.48" y1="99.06" x2="167.64" y2="99.06" width="0.1524" layer="91"/>
-<pinref part="BT1" gate="G$1" pin="+"/>
+<wire x1="157.48" y1="99.06" x2="170.18" y2="99.06" width="0.1524" layer="91"/>
+<pinref part="B1" gate="A" pin="2"/>
 </segment>
 </net>
 </nets>
